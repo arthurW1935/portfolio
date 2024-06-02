@@ -1,5 +1,6 @@
 .home{
     height: 100vh;
+    padding: 10px;
     background: url('../../assets/img/back3.png') no-repeat center;
     background-size: cover;
     box-shadow: 0 -100px 500px rgba(27,27,32,1) inset;

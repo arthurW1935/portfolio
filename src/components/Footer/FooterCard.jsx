@@ -1,4 +1,4 @@
-const color = ["pink", "blue", "violet"]
+const color = ["pink", "blue", "green"]
 function FooterCard({
     key,
     index,

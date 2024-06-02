@@ -1,6 +1,6 @@
 .work{
     min-height: 100vh;
-    padding: 1rem;
+    padding: 0 1rem;
     margin: 0 0 10rem 0;
 }
 
@@ -16,6 +16,8 @@
 .work-filter{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 1rem 0;
 }
 
@@ -27,7 +29,7 @@
     border: 2px dotted #fff;
     border-radius: 10px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 4px 10px;
 }
 
 .active{
