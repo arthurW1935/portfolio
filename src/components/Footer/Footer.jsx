@@ -1,4 +1,5 @@
 import FooterCard from "./FooterCard";
+import "./Footer.css";
 
 const skills = [
     {

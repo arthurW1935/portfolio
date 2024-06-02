@@ -1,5 +1,6 @@
 import { useState } from "react";
 import WorkCard from "./WorkCard";
+import "./Work.css";
 
 const filters = ["All", "Web Development", "Machine Learning", "Data Science", "Desktop Application"];
 const allWorks = [

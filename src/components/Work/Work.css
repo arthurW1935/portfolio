@@ -1,0 +1,108 @@
+.work{
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 0 0 10rem 0;
+}
+
+.work-head{
+    max-width: 500px;
+    margin: 2rem 0;
+}
+
+.work-desc{
+    text-align: justify;
+}
+
+.work-filter{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.work-filter-button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 1rem;
+    border: 2px dotted #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.work-container{
+    max-width: 1300px;
+    justify-content: space-evenly;
+}
+
+.work-contents{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.work-card{
+    min-width: 250px;
+    max-width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid #fff;
+    
+}
+
+.work-card-img{
+    flex: 3;
+    overflow: hidden;
+
+    img{
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    }
+
+    img:hover{
+    transform: scale(1.1);
+    }
+}
+
+.work-card-content{
+    flex: 1;
+    padding: 1rem;
+}
+
+.work-card-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.work-card-tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 10px 0;
+}
+
+.work-card-tag{
+    margin: 0 4px;
+    font-size: 0.8rem;
+    color: #cecece;
+    border-bottom: 1px dashed #cecece;
+}
+
+.work-card-desc{
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #ececec;
+}
+
+.work-card-link{
+    color: #00c8ff;
+    margin: 10px 5px;
+    font-size: 0.9rem;
+}

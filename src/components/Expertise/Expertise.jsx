@@ -1,5 +1,6 @@
 import {motion} from 'framer-motion';
 import ExpertiseCard from "./ExpertiseCard";
+import './Expertise.css';
 
 const expertiseData = [
     {

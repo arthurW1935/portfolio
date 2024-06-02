@@ -1,18 +1,16 @@
-
-import React from 'react';
-import Cursor from './components/Cursor/Cursor';
-import NavBar from './components/NavBar';
-import Home from './components/Home/Home';
-import Expertise from './components/Expertise/Expertise';
-import Work from './components/Work/Work';
-import Footer from './components/Footer/Footer';
+import Cursor from './components/Cursor';
+import Header from './components/Header';
+import Home from './components/Home';
+import Expertise from './components/Expertise';
+import Work from './components/Work';
+import Footer from './components/Footer';
 import './App.css';
 
 function App(){
   return (
     <>
       <Cursor />
-      <NavBar />
+      <Header />
       <Home />
       <Expertise />
       <Work />

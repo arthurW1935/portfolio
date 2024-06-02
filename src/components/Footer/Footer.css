@@ -1,0 +1,57 @@
+.footer{
+    margin-top: 1rem;
+    min-height: 60vh;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-resume{
+    color: #00c8ff;
+    width: fit-content;
+    border-bottom: 1px dashed #00c8ff;
+}
+
+.footer-personal-content{
+    padding: 2rem;
+    justify-content: space-evenly;
+    max-width: 500px;
+}
+
+.footer-contact{
+    padding: 1rem;
+
+    a{
+        margin: 2px;
+        width: fit-content;
+        border-bottom: 1px dashed white;
+    }
+    a:hover{
+        color: #00c8ff;
+        border-bottom: 1px dashed #00c8ff;
+    }
+}
+
+.footer-card-container{
+    max-width: 70vw;
+}
+
+.footer-card{
+    max-width: 200px;
+    min-width: 100px;
+    padding: 1rem;
+}
+
+.footer-card-list{
+    margin: 10px;
+    padding: 0;
+    li{
+        margin: 0.5rem 0;
+        min-width: 150px;
+    }
+    li:hover{
+        color: black;
+        font-weight: 700;
+        background-color: white;
+
+    }
+}

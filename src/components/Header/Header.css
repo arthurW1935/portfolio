@@ -1,0 +1,40 @@
+.header{
+    background-color: rgba(20, 29, 41, 0.6);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(0, 200, 255)
+  }
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.nav-item{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.nav-brand, .nav-index, .nav-link{
+  color: rgb(0, 200, 255);
+  margin: 0 2rem;
+}
+.nav-index{
+  font-size: 0.7rem;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: 700;
+}
