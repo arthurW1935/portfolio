@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Cursor from './components/Cursor/Cursor';
 import NavBar from './components/NavBar';
 import Home from './components/Home/Home';
 import Expertise from './components/Expertise/Expertise';
@@ -10,6 +11,7 @@ import './App.css';
 function App(){
   return (
     <>
+      <Cursor />
       <NavBar />
       <Home />
       <Expertise />

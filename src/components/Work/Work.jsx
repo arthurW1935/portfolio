@@ -54,7 +54,7 @@ function Work(){
     const [filterBy, setFilterBy] = useState("All");
     let works = allWorks;
     if(filterBy !== "All") works = works.filter(work => work.tags.includes(filterBy));
-    console.log(works);
+
     return (
         <section className="work flex-column center" id="work">
             <div className="work-head flex-column center">
@@ -68,11 +68,11 @@ function Work(){
             <div className="work-container">
                 <div className="work-filter secondary-font">
                     Filter by: {filters.map((filter, index) => (
-                        <button key={index} onClick={() => setFilterBy(filter)} className="work-filter-button secondary-font">{filter}</button>
+                        <button key={index} onClick={() => setFilterBy(filter)} className={`work-filter-button secondary-font ${filterBy === filter ? 'active' : ''}`}>{filter}</button>
                     ))}
                 </div>
                 <div className="work-contents flex wrap">
-                    {works.map((work) => (<WorkCard prop={work}/>))}
+                    {works.map((work, index) => (<WorkCard key={index} index={index} {...work}/>))}
                 </div>
             </div>
         </section>

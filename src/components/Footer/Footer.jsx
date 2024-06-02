@@ -1,23 +1,17 @@
-import FooterReview from "./FooterReview";
+import FooterCard from "./FooterCard";
 
-const reviews = [
+const skills = [
     {
-        id: 1,
-        name: "John Doe",
-        designation: "CEO",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget magna."
+        heading: "Languages",
+        contentList: ["Python", "Java", "C++", "C", "JavaScript"]
     },
     {
-        id: 2,
-        name: "Jane Doe",
-        designation: "CTO",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget magna."
+        heading: "Tools",
+        contentList: ["MySQL", "Git", "Docker", "Postman", "VS Code", "Jupyter", "PyCharm", "IntelliJ"]
     },
     {
-        id: 3,
-        name: "John Doe",
-        designation: "COO",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget magna."
+        heading: "Frameworks",
+        contentList: ["Django", "React", "FastAPI", "Flask", "Numpy", "Pandas", "Matplotlib", "Seaborn", "OpenCV", "Tensorflow", "Scikit-learn"]
     }
 ]
 
@@ -50,8 +44,8 @@ function Footer(){
                     </a>
                 </div>
             </div>
-            <div className="review-container flex wrap">
-                {reviews.map((review) => <FooterReview prop={review}/>)}
+            <div className="footer-card-container flex wrap">
+                {skills.map((skill, index) => <FooterCard key={index} index={index} {...skill}/>)}
             </div>      
         </footer>
     )

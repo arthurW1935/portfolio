@@ -1,16 +1,31 @@
-function ExpertiseCard(prop){
-    const {icon, title, description} = prop.prop;
-    console.log(prop.prop);
+import {motion} from 'framer-motion';
+
+
+
+function ExpertiseCard({
+    key,
+    index,
+    icon,
+    title,
+    description
+}){
     return (
-        <div className="expertise-card flex-column">
+        <motion.div 
+        initial={{y:50, opacity:0}}
+        whileInView={{y:0, opacity:1, transition:{type:"spring", duration:1, delay:0.1+0.2*index}}}
+        viewport={{ once: true, amount: 0.8 }}
+        className="expertise-card flex-column"
+        >
             <div className="expertise-card-head flex">
                 <i className={icon+" large-text expertise-card-icon"}></i>
                 <h3 className="expertise-card-title medium-text primary-font">{title}</h3>
             </div>
-            <div className="expertise-card-content">
+            <div className="expertise-card-content secondary-font">
+                &lt;p&gt;
                 <p className="expertise-card-description secondary-font">{description}</p>
+                &lt;/p&gt;
             </div>
-        </div>
+        </motion.div>
     );
 }
 

@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion';
 import ExpertiseCard from "./ExpertiseCard";
 
 const expertiseData = [
@@ -21,12 +22,17 @@ const expertiseData = [
 function Expertise() {
   return (
     <section className="expertise flex-column center" id="expertise">
-        <h1 className="expertise-brand primary-font large-text">
+        <motion.h1 
+        initial={{y:50, opacity:0}}
+        whileInView={{y:0, opacity:1, transition:{type:"spring", duration:0.5, delay:0.1}}}
+        viewport={{ once: true, amount: 0.8 }}
+        className="expertise-brand primary-font large-text"
+        >
             My Expertise
-        </h1>
+        </motion.h1>
         <div className="expertise-content flex center wrap">
             {expertiseData.map((expertise, index) => (
-                <ExpertiseCard key={index} prop={expertise} />
+                <ExpertiseCard key={index} index={index} {...expertise} />
             ))}
         </div>
     </section>

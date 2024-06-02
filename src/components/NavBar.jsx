@@ -1,5 +1,5 @@
 function NavBar(){
-    const navContent = ["home", "expertise", "work", "experience", "contact"];
+    const navContent = ["home", "expertise", "work", "contact"];
     return (
         <nav className="navbar">
             <a className="nav-brand primary-font" href="#">Arthur.</a>
