@@ -17,7 +17,7 @@ function WorkCard({
         className="work-card flex-column" key={key}
         >
             <div className="work-card-img">
-                <img src={"./src/assets/img/"+img} alt="work" className="work-card-img"/>
+                <img src={img} alt="work" className="work-card-img"/>
             </div>
             <div className="work-card-content">
                 <h3 className="work-card-title primary-font">{title}</h3>
