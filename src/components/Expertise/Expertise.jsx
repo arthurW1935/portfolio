@@ -3,20 +3,20 @@ import ExpertiseCard from "./ExpertiseCard";
 
 const expertiseData = [
     {
-        icon: "fa-solid fa-computer",
-        title: "Software Development",
-        description: "I can build scalable and maintainable web applications using modern technologies and best practices."
+        icon: "fa-solid fa-robot",
+        title: "Data Science & Machine Learning",
+        description: "I can develop machine learning models and AI applications using Python and TensorFlow. I can also work with data analysis and visualization libraries like Pandas and Matplotlib."
     },
     {
         icon: "fa-solid fa-laptop-code",
         title: "FullStack Web Development",
-        description: "I can create responsive and user-friendly websites using HTML, CSS, and JavaScript."
+        description: "I can create responsive and user-friendly websites using HTML, CSS, and JavaScript. Also can leverage frameworks like React, Django, and SpringBoot to make backend applications."
     },
     {
-        icon: "fa-solid fa-robot",
-        title: "AI & Machine Learning",
-        description: "I can develop machine learning models and AI applications using Python and TensorFlow."
-    }
+        icon: "fa-solid fa-diagram-project",
+        title: "Data Structures & Algorithms",
+        description: "I have a strong foundation in DSA and can solve complex problems using algorithms. I can implement them in various programming languages like C++, Java, and Python."
+    },
 ];
 
 function Expertise() {

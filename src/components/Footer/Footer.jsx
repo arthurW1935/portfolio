@@ -20,26 +20,27 @@ function Footer(){
         <footer class="footer flex wrap" id="contact">
             <div className="footer-personal-content flex-column">
                 <h1 className="primary-font">
-                    Got any Ideas?
+                    Want to work with me?
                 </h1>
                 <p className="secondary-font">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem et blanditiis reprehenderit harum atque aspernatur neque iste ut quia!
+                    Want to hire me for your organisation? Or got some ideas in mind? I am always open to new opportunities and collaborations. Feel free to reach out to me. 
                 </p>
+                <a href="https://drive.google.com/file/d/1kcKJ84FDQPpYtYbnDUBw4c0cgwydvz18/view?usp=sharing" target="_blank" className="footer-resume secondary-font"> Check out my Resume</a>
 
                 <div className="footer-contact flex-column">
                     <h3 className="primary-font">
                         Contact Me
                     </h3>
-                    <a href="" className="secondary-font">
-                        Email: abc@gmail.com
+                    <a href="mailto:sourashissukhen@gmail.com" className="secondary-font">
+                        Email
                     </a>
-                    <a href="www.linkedin.com" className="contact-link secondary-font">
+                    <a href="https://www.linkedin.com/in/sourashis-sarkar-b957a7215/" className="contact-link secondary-font">
                         LinkedIn
                     </a>
-                    <a href="www.instagram.com" className="contact-link secondary-font">
+                    <a href="https://www.instagram.com/sarkar.arthur/" className="contact-link secondary-font">
                         Instagram
                     </a>
-                    <a href="www.github.com" className="contact-link secondary-font">
+                    <a href="https://github.com/arthurW1935" className="contact-link secondary-font">
                         Github
                     </a>
                 </div>

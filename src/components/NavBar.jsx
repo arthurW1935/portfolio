@@ -2,7 +2,7 @@ function NavBar(){
     const navContent = ["home", "expertise", "work", "contact"];
     return (
         <nav className="navbar">
-            <a className="nav-brand primary-font" href="#">Arthur.</a>
+            <a className="nav-brand primary-font" href="#">@sarkar.arthur</a>
             <div className="nav-content">
                 {navContent.map((item, index) => (
                     <div key={index} className="nav-item" href="#">

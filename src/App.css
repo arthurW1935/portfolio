@@ -112,7 +112,7 @@ i{
 
 .navbar{
     /* background-color: #0f0f0f; */
-    background-color: rgba(27, 27, 20, 0.6);
+    background-color: rgba(20, 29, 41, 0.6);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     position: fixed;
@@ -154,10 +154,9 @@ i{
 
 .home{
   height: 100vh;
-  margin: 0;
   background: url('./assets/img/back3.png') no-repeat center;
   background-size: cover;
-  box-shadow: 0 -100px 200px rgba(27,27,32,1) inset;
+  box-shadow: 0 -100px 500px rgba(27,27,32,1) inset;
 }
 
 .expertise{
@@ -184,7 +183,6 @@ i{
 .expertise-card{
   min-width: 250px;
   max-width: 350px;
-  height: 17rem;
   padding: 1rem;
   border: 2px solid #fff;
 }
@@ -199,7 +197,7 @@ i{
   margin: 0 1rem;
 }
 .expertise-card-title{
-  z-index: 5000;
+  font-size: 1.7rem;
 }
 
 .expertise-card-content{
@@ -265,7 +263,7 @@ i{
 .work-card{
   min-width: 250px;
   max-width: 400px;
-  height: 450px;
+  height: 400px;
   margin: 10px;
   border: 2px solid #fff;
   
@@ -289,6 +287,11 @@ i{
 .work-card-content{
   flex: 1;
   padding: 1rem;
+}
+
+.work-card-title{
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 
 .work-card-tags{
@@ -323,6 +326,12 @@ i{
   background-color: rgb(0, 0, 0);
 }
 
+.footer-resume{
+  color: #00c8ff;
+  width: fit-content;
+  border-bottom: 1px dashed #00c8ff;
+}
+
 .footer-personal-content{
   padding: 2rem;
   justify-content: space-evenly;
@@ -332,8 +341,14 @@ i{
 .footer-contact{
   padding: 1rem;
 
+  a{
+    margin: 2px;
+    width: fit-content;
+    border-bottom: 1px dashed white;
+  }
   a:hover{
     color: #00c8ff;
+    border-bottom: 1px dashed #00c8ff;
   }
 }
 

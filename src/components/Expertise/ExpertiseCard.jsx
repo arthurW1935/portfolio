@@ -18,7 +18,7 @@ function ExpertiseCard({
         >
             <div className="expertise-card-head flex">
                 <i className={icon+" large-text expertise-card-icon"}></i>
-                <h3 className="expertise-card-title medium-text primary-font">{title}</h3>
+                <h3 className="expertise-card-title primary-font">{title}</h3>
             </div>
             <div className="expertise-card-content secondary-font">
                 &lt;p&gt;
