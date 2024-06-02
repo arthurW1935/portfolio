@@ -4,50 +4,44 @@ import WorkCard from "./WorkCard";
 const filters = ["All", "Web Development", "Machine Learning"];
 const allWorks = [
     {
+        img: "work1.jpg",
         title: "Project 1",
         tags: ["Web Development"],
-        img: "work1.jpg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
+        link: "#"
     },
     {
-        title: "Project 2",
+        img: "work1.jpg",
+        title: "Project 1",
         tags: ["Web Development"],
-        img: "work1.jpg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
+        link: "#"
     },
     {
-        title: "Project 3",
-        tags: ["Machine Learning"],
-        img: "work1.jpg"
-    },
-    {
-        title: "Project 4",
+        img: "work1.jpg",
+        title: "Project 1",
         tags: ["Web Development"],
-        img: "work1.jpg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
     },
     {
-        title: "Project 5",
+        img: "work1.jpg",
+        title: "Project 1",
+        tags: ["Web Development", "Web Development", "Web Development"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
+    },
+    {
+        img: "work1.jpg",
+        title: "Project 1",
         tags: ["Web Development"],
-        img: "work1.jpg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
     },
     {
-        title: "Project 6",
-        tags: ["Machine Learning"],
-        img: "work1.jpg"
-    },
-    {
-        title: "Project 7",
+        img: "work1.jpg",
+        title: "Project 1",
         tags: ["Web Development"],
-        img: "work1.jpg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eligendi voluptatum voluptates distinctio asperiores officia eos fuga voluptate quidem omnis iste et ab possimus aliquam dolorum tempore sequi rerum necessitatibus?",
     },
-    {
-        title: "Project 8",
-        tags: ["Web Development"],
-        img: "work1.jpg"
-    },
-    {
-        title: "Project 9",
-        tags: ["Machine Learning"],
-        img: "work1.jpg"
-    },
+
 ]
 
 function Work(){

@@ -5,8 +5,11 @@ function WorkCard({
     index,
     img,
     title,
+    description,
+    link,
     tags
 }){
+    if(description.length >150) description = description.slice(0,147) + "...";
     return (
         <motion.div 
         initial={{y:50, opacity:0}}
@@ -18,15 +21,15 @@ function WorkCard({
             </div>
             <div className="work-card-content">
                 <h3 className="work-card-title medium-text primary-font">{title}</h3>
-                <p className="work-card-description secondary-font">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec purus nec.
-                </p>
-                <a href="" className="work-card-link secondary-font">See Project</a>
                 <div className="work-card-tags flex wrap">
                     {tags.map((tag, index) => (
                         <span key={index} className="work-card-tag secondary-font">{tag}</span>
                     ))}
                 </div>
+                <p className="work-card-desc secondary-font">
+                    {description}
+                </p>
+                <a href={link} className="work-card-link secondary-font">See Project</a>
             </div>
         </motion.div>
     );
